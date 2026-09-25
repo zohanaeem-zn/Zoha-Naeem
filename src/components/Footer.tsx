@@ -33,10 +33,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-[#dae2fd]/60">
             <div className="flex items-center gap-4">
               <img
-                src="/zoha_profile.jpg"
+                src="/zoha_pic.jpeg"
                 alt="Zoha Naeem"
-                className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl object-cover object-top ring-2 ring-[#dc2c4f]/30 shadow-md shrink-0"
-                referrerPolicy="no-referrer"
+                className="w-12 h-12 rounded-2xl object-cover object-center ring-2 ring-[#e2e7ff]/30 shadow-sm shrink-0"
               />
               <div>
                 <div className="flex items-center gap-2">
