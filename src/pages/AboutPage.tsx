@@ -330,11 +330,13 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenResume }
               <div className="relative w-full max-w-[340px] rounded-3xl overflow-hidden shadow-[0_12px_40px_rgba(19,27,46,0.12)] border border-[#dae2fd] bg-[#131b2e] group">
                 <div className="aspect-[4/5] w-full overflow-hidden">
                   <img
-                    src="/zoha_profile.jpg"
+                    src="/zoha_pic.jpeg"
                     alt="Zoha Naeem"
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#131b2e]/95 via-[#131b2e]/30 to-transparent pointer-events-none" />
+                </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#131b2e]/95 via-[#131b2e]/30 to-transparent pointer-events-none" />
                 </div>
                 <div className="absolute bottom-4 left-4 right-4 text-white">
