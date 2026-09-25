@@ -1,10 +1,10 @@
 import { ExperienceItem, GrowthCaseStudy, Project, SkillCategory } from '../types';
 
 export const ASSETS = {
-  logo: '/zoha_profile.jpeg',
-  avatar: '/zoha_profile.jpeg',
-  heroWorkspace: '/zoha_profile.jpeg',
-  candidDesk: '/zoha_profile.jpeg',
+  logo: '/zoha_pic.jpeg',
+  avatar: '/zoha_pic.jpeg',
+  heroWorkspace: '/zoha_pic.jpeg',
+  candidDesk: '/zoha_pic.jpeg',
   projects: {
     lumina: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBytLIgTfmQtzKoxHJee5QnPoVtgh8uTMv6Qa-_DuXM_ebRDVwKET2s6C3h0jMrZfZdoCZSK-nBsWgG9fZcHChptbxMl9hga7u1CqJ1f6xAOFOHnct5cKLAIj12q1rKoKISQ0jrHV1EgXIbCZSzkoYM9EsN_4vgcuN_eXxx4zMSxSSVAoxE8ohESkt61SaVjaSs7-olje_xbXTFBs8HUpDgY4cfZHygTI7F_sjzDx4RS7JXmZrwE5Lv',
     bloom: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBMS6ik_6RFrJRSRVDP2kklLvJ_A1wKGL7fF7tQliseK98VF3baoPfSx1p7UhxHqCtFmWjv7EhPhW2sOmi7qXg_4nBVmZZxs437d5_017kMdqXaVdk59x7cof03BfLGVB1Xi6Phwc9tacWhxAvUfQ_jDpavTpZoOvwafmcTqJeG6bcXk-NksSbg8EfYXUxtQb3xqowMJtEAt9zGVNVLRMACAbTge3rdegydRH1ztIBmbYSpA0zpvhq6',
