@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenR
             <div className="relative w-10 h-10 rounded-xl overflow-hidden ring-2 ring-[#b90538]/20 shadow-sm group-hover:scale-105 group-hover:ring-[#b90538]/40 transition-all shrink-0 bg-[#131b2e]">
               <img
                 src="/zoha_pic.jpeg"
-                alt="Your Name"
+                alt="Zoha Naeem"
                 className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
               />
