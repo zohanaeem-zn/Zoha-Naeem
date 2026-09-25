@@ -36,8 +36,8 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenR
           >
             <div className="relative w-10 h-10 rounded-xl overflow-hidden ring-2 ring-[#b90538]/20 shadow-sm group-hover:scale-105 group-hover:ring-[#b90538]/40 transition-all shrink-0 bg-[#131b2e]">
               <img
-                src="/zoha_profile.jpg"
-                alt="Zoha Naeem"
+                src="/zoha_pic.jpeg"
+                alt="Your Name"
                 className="w-full h-full object-cover object-top"
                 referrerPolicy="no-referrer"
               />
@@ -153,7 +153,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenR
           {/* Mobile Profile Preview */}
           <div className="flex items-center gap-3 pb-3 mb-2 border-b border-[#dae2fd]/60">
             <img
-              src="/zoha_profile.jpg"
+              src="/zoha_pic.jpeg"
               alt="Zoha Naeem"
               className="w-11 h-11 rounded-xl object-cover object-top ring-2 ring-[#dc2c4f]/30 shadow-sm"
               referrerPolicy="no-referrer"
