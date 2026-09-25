@@ -35,7 +35,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               <img
                 src="/zoha_pic.jpeg"
                 alt="Zoha Naeem"
-                className="w-12 h-12 rounded-2xl object-cover object-center ring-2 ring-[#e2e7ff]/30 shadow-sm shrink-0"
+                className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl object-cover object-[center_42%] ring-2 ring-[#dc2c4f]/30 shadow-md shrink-0"
+                referrerPolicy="no-referrer"
               />
               <div>
                 <div className="flex items-center gap-2">

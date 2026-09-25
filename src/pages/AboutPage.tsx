@@ -332,11 +332,9 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenResume }
                   <img
                     src="/zoha_pic.jpeg"
                     alt="Zoha Naeem"
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-cover object-[center_40%] group-hover:scale-105 transition-transform duration-500"
                     referrerPolicy="no-referrer"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-[#131b2e]/95 via-[#131b2e]/30 to-transparent pointer-events-none" />
-                </div>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#131b2e]/95 via-[#131b2e]/30 to-transparent pointer-events-none" />
                 </div>
                 <div className="absolute bottom-4 left-4 right-4 text-white">
