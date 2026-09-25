@@ -38,7 +38,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenR
               <img
                 src="/zoha_pic.jpeg"
                 alt="Zoha Naeem"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-center"
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -151,11 +151,10 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate, onOpenR
       {mobileMenuOpen && (
         <div className="lg:hidden bg-[#faf8ff] border-b border-[#dae2fd] px-6 py-4 shadow-xl animate-fadeIn">
           {/* Mobile Profile Preview */}
-          <div className="flex items-center gap-3 pb-3 mb-2 border-b border-[#dae2fd]/60">
-            <img
+          <img
               src="/zoha_pic.jpeg"
               alt="Zoha Naeem"
-              className="w-11 h-11 rounded-xl object-cover object-top ring-2 ring-[#dc2c4f]/30 shadow-sm"
+              className="w-11 h-11 rounded-xl object-cover object-center ring-2 ring-[#dc2c4f]/30 shadow-sm"
               referrerPolicy="no-referrer"
             />
             <div className="flex flex-col">
