@@ -112,14 +112,11 @@ ADDITIONAL SKILLS
         <div className="overflow-y-auto p-6 sm:p-10 space-y-8 bg-white font-sans text-[#131b2e]">
           {/* Header section */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between pb-6 border-b border-[#dae2fd]/70 gap-4">
-            <div className="flex items-center gap-4">
-              <img
-                src="/zoha_profile.jpg"
+            <img
+                src="/zoha_pic.jpeg"
                 alt="Zoha Naeem"
-                className="w-16 h-20 sm:w-20 sm:h-24 rounded-xl object-cover object-top shadow-md border-2 border-white ring-1 ring-[#dae2fd] shrink-0"
-                referrerPolicy="no-referrer"
+                className="w-16 h-16 rounded-2xl object-cover object-center border-2 border-[#b90538]/30 shadow-md shrink-0"
               />
-              <div>
                 <h1 className="text-2xl sm:text-3xl font-extrabold text-[#131b2e] tracking-tight">ZOHA NAEEM</h1>
                 <p className="text-[#dc2c4f] font-semibold text-[14px] sm:text-[15px] mt-0.5">
                   Computer Science Graduate &amp; Technical Educator
